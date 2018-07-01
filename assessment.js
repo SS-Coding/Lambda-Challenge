@@ -81,3 +81,10 @@ totalAge += data.age;
 }
 return Math.round(totalAge / users.length);
 }
+
+module.exports = {
+ helloWorld,
+ lambdaSchool,
+ longestString,
+ computeUserAverageAge
+};
