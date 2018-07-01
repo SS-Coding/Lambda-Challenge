@@ -47,9 +47,9 @@ function lambdaSchool(num) {
 function longestString(str) {
   longestStr= "";
   for (let i = 0; i < str.length; i++){
-    let element = str[i];
-    if (element.length > longestStr.length)
-    longestStr = element;
+    let word = str[i];
+    if (word.length > longestStr.length)
+    longestStr = word;
   }
   return longestStr;
 
@@ -78,8 +78,8 @@ function longestString(str) {
 function computeUserAverageAge(users) {
 totalAge = 0;
 for (let i = 0; i < users.length; i++) {
-   let element = users[i];
-totalAge += element.age;
+   let data = users[i];
+totalAge += data.age;
   
 }
 return Math.round(totalAge / users.length);
