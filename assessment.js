@@ -74,12 +74,12 @@ function longestString(str) {
 */
 
 function computeUserAverageAge(users) {
-totalAge = 0;
+totalAvgAge = 0;
 for (let i = 0; i < users.length; i++) {
    let data = users[i];
-totalAge += data.age;
+totalAvgAge += data.age;
 }
-return Math.round(totalAge / users.length);
+return Math.round(totalAvgAge / users.length);
 }
 
 module.exports = {
